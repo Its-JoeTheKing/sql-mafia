@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Mafia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"
+        integrity="sha512-n7swEtVCvXpQ7KxgpPyp0+DQQEf5vPpmzCRl14x2sp2v5LpCYCjrAx03mkBAbWwGF9eUoIk8YVcDFuJRIeYttg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts.js"></script>
+</head>
+
+<body>
+    <h1>SQL Father <img src="imgs/logo.jpg"></h1>
+    <div class="cont">
+        <div class="s1">
+            <div class="terminal">
+                <table>
+                    <thead>
+                        <tr id="col">
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <div style="display: flex;">
+                    <h2>root@localhost ></h2><input type="text" id="command">
+                </div>
+            </div>
+        </div>
+        <div class="s2">
+            <div class="notif">
+                <h2 class="tit">Missions :</h2>
+                <div style="margin-top: 10%;"></div>
+                <div class="message" id="pilot">
+                    <p>Welcome To SQL Familly,
+                        In 2020 the godfather bought a big database table of SQL City To Make sure that our business
+                        done very well and easially the table name is sql_city, the table contain :
+                        <code>name</code>
+                        <code>address</code>
+                        <code>height</code>
+                        <code>hair</code>
+                        <code>color</code>
+                        <code>work</code>
+                        <code>money</code>
+                        Your Mission is to help the SQL Familly retrieve the infos or name using your sql language skills of a person that we will describe it to you
+                    </p>
+                </div>
+                <div class="sending">
+                    <button id="start">Accept Mission</button>
+                    <input type="text" id="answer" placeholder="Answer Go here"><button class="send" id="submit">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Poppins:wght@700&family=Raleway&family=Roboto&family=Source+Code+Pro:wght@600&display=swap');
+body {
+    background: rgb(19, 19, 19);
+}
+* {
+    font-family: "Source Code Pro";
+}
+.s1 {
+    width: 60%;
+    height: 80%;
+    justify-content: center;
+}
+.s2 {
+    height: 80%;
+    width: 40%;
+}
+.notif {
+    width: 90%;
+    height: 100%;
+    border: 1px solid green;
+    right: 0;
+    top: 0;
+    margin-left: 5%;
+    margin-top: 22.5%;
+    position: relative;
+}
+.sending {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+.sending input {
+    width: 80%;
+    height: 80%;
+    background: rgb(36, 36, 36);
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+    margin: 5px;
+    margin-top: 0px;
+    position: relative;
+}
+.sending button {
+    width: 18%;
+    height: 90%;
+    background: rgb(0, 243, 0);
+    position: relative;
+    margin: 5px;
+    margin-top: 0;
+    border: none;
+    color: rgb(116, 116, 116);
+
+}
+#start {
+    position: absolute;
+    width: 98%;
+    margin-left: 1%;
+    height: 95%;
+    background: linear-gradient(to right bottom,rgb(0, 243, 0),rgb(0, 113, 243));
+    color: white;
+    z-index: 99;
+}
+.tit {
+    font-size: 22px;
+    color: rgb(0, 243, 0);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    height: 10%;
+}
+.terminal {
+    border: 1px solid white;
+    top: 0;
+    left: 0;
+    margin-top: 15%;
+    min-height: 100%;
+    margin-left: 10px;
+    width: 100%;
+    position: relative;
+}
+table {
+    top: 0;
+}
+input {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(0, 243, 0);
+    width: 70%;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+h2 {    
+    color: rgb(0, 243, 0);
+    bottom: 0;
+    position: absolute;
+    width: 5%;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    width: 30%;
+    margin-bottom: 10px;
+
+}
+th,td {
+    padding: 15px;
+    border: 1px solid rgb(64, 255, 47);
+    color: rgb(64, 255, 47);
+}
+table {
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+h1 {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 50px;
+    font-family: "Poppins";
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+h1 img {
+    height: 100px;
+    border-radius: 50%;
+    top: 0;
+}
+.cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.message {
+    min-height: 15%;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+}
+.message p {
+    margin: 0;
+    padding: 10px;
+}
+code {
+    background: gray;
+    border-radius: 2px;
+}
+.terminal h1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins";
+    text-align: center;
+    justify-content: center;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    color: white;
+    background: linear-gradient(to right bottom,rgb(255, 0, 43),rgb(204, 0, 255));
+}
