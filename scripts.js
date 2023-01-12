@@ -52,7 +52,7 @@ initSqlJs(config).then(function (SQL) {
     db.run("INSERT INTO persons VALUES('John Kingstone','USA','279 Las Vegas',69,'yellow','white','Lawyer',500000)")
 
     // doors system database
-    db.run("CREATE TABLE sys (name varchar,codes int,isOpen bool)");
+    db.run("CREATE TABLE sys (name varchar,code int,isOpen bool)");
     db.run("INSERT INTO sys VALUES('door-14',204214,false)");
     db.run("INSERT INTO sys VALUES('door-12',234214,false)");
     db.run("INSERT INTO sys VALUES('door-15',22311,false)");
