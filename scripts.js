@@ -31,7 +31,7 @@ initSqlJs(config).then(function (SQL) {
     db.run("INSERT INTO persons VALUES('ThePuNiSher','USA','126 Los Santos',68,'black','black','hacker',800000)")
     db.run("INSERT INTO persons VALUES('Slim0x','USA','154 New York',68,'white','golden','hacker',800000)")
     db.run("INSERT INTO persons VALUES('DestroyX2','USA','298 Califoria',65,'black','black','hacker',800000)")
-    db.run("INSERT INTO persons VALUES('SQLKing','USA','126 Los Santos',68,'black','black','hacker',800000)")
+    db.run("INSERT INTO persons VALUES('SQLKing','USA','298 Califoria',68,'black','black','hacker',800000)")
     db.run("INSERT INTO persons VALUES('LogicX','USA','126 Los Santos',68,'black','black','hacker',800000)")
     db.run("INSERT INTO persons VALUES('John Slim','UK','634 Las Vegas',67,'yellow','white','criminal',800000)")
     db.run("INSERT INTO persons VALUES('Jack Justin','USA','614 Las Vegas',67,'black','white','criminal',800000)")
