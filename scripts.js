@@ -145,7 +145,7 @@ initSqlJs(config).then(function (SQL) {
     var fourth_mission = () => {
         document.getElementById("pilot").innerHTML = "<p>It's Time To Celebrate Our Success, Find Address Of Our Artist He is The Richest Artist in USA</p>"
         document.getElementById("submit").onclick = () => {
-            if(document.getElementById("answer").value == "John Rolls") {
+            if(document.getElementById("answer").value == "541 California") {
                 setTimeout(() => {
                     mission5()
                 }, 3000);
