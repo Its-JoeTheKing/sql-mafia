@@ -117,7 +117,7 @@ initSqlJs(config).then(function (SQL) {
             }
     }
     var second_mission = () => {
-        document.getElementById("pilot").innerHTML = "<p>Next Mission Is To Find The Address Of Our drug seller His name start with 'Steven'</p>"
+        document.getElementById("pilot").innerHTML = "<p>Next Mission Is To Find The Address Of Our drugs seller His name start with 'Steven'</p>"
             document.getElementById("submit").onclick = () => {
                 if(document.getElementById("answer").value == "224 Las Vegas") {
                     setTimeout(() => {
