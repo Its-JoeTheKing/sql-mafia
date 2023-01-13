@@ -195,7 +195,7 @@ initSqlJs(config).then(function (SQL) {
         }
     }
     var mission8 = () => {
-        document.getElementById("pilot").innerHTML = "<p>SQLKing : YoW, I SuCCeSSfuLLy HacKeD ThE prison DaTaBaSe It's CoNtAiNiNg ThEsE Tables : <code>sys</code> sys TaBlE CoNtAInIng The CoD3s Of All Dors And CaMeRas <code>name</code><code>code</code><code>isOpen</code>(0=door closed and 1=door opened),<code>prisoners</code> TaBlE CoNtAiNiNg <code>prisoner</code><code>join_date</code><code>out_date</code></p>; If YoU UnDerStOOd My WoRDes TyPe 'YES'</p>"
+        document.getElementById("pilot").innerHTML = "<p>SQLKing : YoW, I SuCCeSSfuLLy HacKeD ThE prison DaTaBaSe It's CoNtAiNiNg ThEsE Tables : <code>sys</code> sys TaBlE CoNtAInIng The CoD3s Of All Dors And CaMeRas <code>name</code>  <code>code</code>  <code>isOpen</code>  (0=door closed and 1=door opened), <code>prisoners</code> TaBlE CoNtAiNiNg <code>prisoner</code>  <code>join_date</code>  <code>out_date</code></p> ; If YoU UnDerStOOd My WoRDes TyPe 'YES'</p>"
         document.getElementById("submit").onclick = () => {
             if(document.getElementById("answer").value == "YES") {
                 setTimeout(() => {
