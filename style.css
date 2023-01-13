@@ -150,6 +150,7 @@ h1 img {
 }
 .message {
     min-height: 15%;
+    max-height: 100%;
     width: 90%;
     margin-left: 5%;
     display: flex;
